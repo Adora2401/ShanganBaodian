@@ -1,0 +1,107 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="母版页.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+                <link rel="stylesheet" href="css/style.css"/>
+                <link rel="stylesheet" href="css/首页.css"/>
+                 <link rel='stylesheet' href='css/bootstrap5152.css' type='text/css' media='all' />
+                <link rel='stylesheet'  href='css/responsive5152.css?ver=1.0' type='text/css' media='all' />
+                <link rel='stylesheet'   href='css/prettyPhotoaeb9.css?ver=3.1.4' type='text/css' media='all' />
+                <link rel='stylesheet'   href='css/main5152.css?ver=1.0' type='text/css' media='all' />
+                <link rel='stylesheet'  href='css/green-skin5152.css?ver=1.0' type='text/css' media='all' />
+                <link rel='stylesheet' href='css/custom5152.html?ver=1.0' type='text/css' media='all' />
+
+
+    <style type="text/css">
+        .auto-style1 {
+            height: 100px;
+            width: 1539px;
+            position: relative;
+            zoom: 1;
+            left: -201px;
+            top: 0px;
+            margin: 0px auto;
+        }
+    </style>
+
+
+</head>
+<body>
+          <div class="header-wrapper" >  
+              <header>
+                   <div class="container">
+                    
+                           <!-- Website Logo -->
+                    <div class="logo-container">
+                        <img src="上岸/模板/首页images/横版logo.png" alt="这里是logo" />
+                        <span class="slogan">伴你考研|渡你上岸</span>
+                    </div>
+                <!-- Start of Main Navigation -->
+                <div class="login-register">
+                            <ul>
+                                <li>亲爱的研友请</li>
+                                <li><button class="登录注册" onclick="openDialog()">登录</button></li>
+                                <li>|</li>
+                                <li><button class="登录注册" onclick="openDialog()">注册</button></li>
+                            </ul>
+                </div>
+                         <nav class="main-nav">
+                                                <div class="menu-top-menu-container">
+                                                    <ul id="menu-top-menu" class="clearfix">
+                                                        <li ><a href="首页.html">首页</a></li>
+                                                        <li><a href="#">院校库</a> 
+                                                            <ul class="sub-menu">
+                                                                <li><a href="#">学校</a></li>
+                                                                <li><a href="#">招生简章</a></li>
+                                                                <li><a href="#">历史数据</a></li>
+                                                                <li><a href="#">专业目录</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a href="#">个性化</a>
+                                                            <ul class="sub-menu">
+                                                                <li><a href="#">定位成功界面</a></li>
+                                                                <li><a href="#">定位失败界面</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a href="#">论坛首页</a>
+                                                            <ul class="sub-menu">
+                                                                <li><a href="#">板块详情页</a></li>
+                                                                <li><a href="#">帖子详情页</a></li>
+                                                                <li><a href="#">发帖</a></li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                        </nav>
+                                   </div>
+                        </header>
+                     </div>
+
+
+    <div class="search-area-wrapper" >
+               <div class="container">
+                                <h3 class="search-header">有找不到的内容？</h3>
+                                <p class="search-tag-line">请在下面的搜索框中输入你想查找的内容</p>
+                    <form class="search-form clearfix" runat="server" method="get" action="#" autocomplete="off">
+                                 <div class="search-form clearfix" >
+                                        <input class="search-term required" type="text" id="s" name="s" placeholder="Type your search terms here" title="* Please enter a search term!" />
+                                        <input class="search-btn" type="submit" value="Search" />
+                                        <div id="search-error-container"></div>
+                                </div>
+                      </form>
+                </div>          
+     </div>
+         
+    <asp:ContentPlaceHolder id="ContentForm" runat="server">
+    </asp:ContentPlaceHolder>
+
+
+
+</body>
+</html>

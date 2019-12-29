@@ -1,0 +1,245 @@
+﻿/*------------------------------------------------------- 添加的 -------------------------------------------------------*/
+.login-register{
+  position: absolute;
+  right:0;
+  top:0;
+  padding:0;
+  margin:0;
+}
+.login-register > ul {
+  width: auto;
+}
+.login-register > ul > li {
+  position: relative;
+  float:left;
+  list-style: none;
+  font-size:16;
+  margin:20px 5px 0;
+}
+
+#txtsearch {
+    width: 420px;
+    height: 38px;
+    line-height: 36px;
+    background: #fff;
+    border: 1px solid #666;
+    font-size: 16px;
+    color: #333;
+    left: 10px;
+    right: 10px;
+    padding: 0 10px;
+}
+
+#btnsearch {
+    width: 104px;
+    height: 38px;
+    font-size: 16px;
+    color: #FFF;
+    line-height: 38px;
+    border: none;
+    background-color: #4fb081;
+}
+/*------------------------------------------------------- 登录注册 -----------------------------------------------------*/
+#登录{
+    border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    width: 50px;
+    height:20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    background:#e6e8e7;
+    color:#73bcab;
+    font: 14px arial;
+    position: relative;
+    -webkit-box-shadow:  2px 2px 10px red;
+    -moz-box-shadow:  2px 2px 10px red;
+    top: 3px;
+    left: 2px;
+}
+#注册 {
+    border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    width: 50px;
+    height: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    background: #e6e8e7;
+    color: #73bcab;
+    font: 14px arial;
+    position: relative;
+    -webkit-box-shadow: 2px 2px 10px red;
+    -moz-box-shadow: 2px 2px 10px red;
+    top: 3px;
+    left: -2px;
+    margin-bottom: 0px;
+}
+/*------------------------------------------------------- 修改的 -------------------------------------------------------*/
+/* Header - Logo and Nav ---------------------------------------------------------------------------------------------*/
+.header-wrapper {
+    background-color:#4fb084;
+    width: 100%;
+}
+.container {
+        height: 100px;
+        width: 1080px;
+        margin: 0px auto;
+        position: relative;
+    }
+.search-area-wrapper {
+    background-image: url('green-skin/green-bg.jpg');
+    background-color: #229d8e;
+    height: 60px;
+}
+.logo {
+    height: 58px;
+    width: 238px;
+    float: left;
+    padding-top: 16px;
+}
+h3.search-header {
+    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: #fff;
+    text-align: center;
+}
+p.search-tag-line {
+    font-family: "Droid Serif", serif;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 28px;
+    color: #fff;
+    text-align: center;
+}
+.search-area-wrapper form.search-form input.search-term {
+    width: 80%;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.search-area-wrapper form.search-form input.search-btn {
+    display: block;
+    margin: 0 auto;
+}
+
+ul.articles .article-entry {
+    padding-bottom: 20px;
+}
+
+#jquery-live-search #live-search-results {
+    width: 248px;
+}
+
+}
+.search-area-wrapper form.search-form input.search-term {
+    width: 80%;
+    display: block;
+    margin: 0 auto 10px;
+}
+form.search-form {
+    margin: 40px 0 0;
+    text-align: center;
+}
+.logo-tittle {
+    width: 200px;
+    height: 43px;
+    float: left;
+    font-family: "微软雅黑";
+    font-weight: bold;
+    margin: 10px 0 0 10px;
+}
+.li {
+    color: #e6e8e7;
+    font: 18px arial;
+}
+.logo-container {
+  padding:5px 0 0 ;
+}
+.logo-container img {
+  margin-right: 10px;
+}
+
+.lt-ie9 .logo-container {
+  width: 450px;
+}
+
+span.slogan {
+  color: #e6e8e7;
+  font: 18px arial;
+  position: relative;
+  top:0;
+}
+.user {
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    width: auto;
+}
+.heade2 {
+    background-image: url("green-skin/green-bg.jpg");
+    background-color: #229d8e;
+}
+.main-nav {
+  position: absolute;
+  top: 5px;
+  left:500px;
+}
+
+.main-nav div > ul {
+  width: auto;
+  margin: 0;
+}
+.main-nav div > ul > li {
+  position: relative;
+  float: left;
+  list-style: none;
+  padding: 16px 20px 18px;
+}
+.main-nav div > ul > li a {
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  color: #c1cad1;
+}
+.main-nav div > ul > li a:hover {
+  color: #fff;
+}
+.main-nav div > ul > li:hover > a {
+  color: #fff;
+}
+.main-nav div > ul > li:last-child {
+  padding-right: 0;
+}
+.main-nav div > ul li.current-menu-item a {
+  color: #fff;
+}
+.main-nav .sub-menu {
+  position: absolute;
+  top: 56px;
+  left: 0px;
+  list-style: none;
+  margin: 0;
+  display: none;
+}
+.main-nav .sub-menu li {
+  position: relative;
+  background-color: #3b4348;
+  padding: 6px 10px;
+  width: 150px;
+  cursor: pointer;
+}
+.main-nav .sub-menu li:hover {
+  background-color: #292e32;
+}
+.main-nav .sub-menu li:hover > a {
+  color: #fff;
+}
+.main-nav .sub-menu .sub-menu {
+  top: 0px;
+  right: 170px;
+  left: auto;
+}
+.main-nav .responsive-nav {
+  display: none;
+}
